@@ -1,0 +1,623 @@
+[2014-02-26 05:50:42] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:50:42] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:51:45] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:51:45] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:51:47] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:51:47] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:51:48] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:51:48] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:51:49] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:51:49] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:51:59] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:51:59] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 05:52:08] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 05:52:08] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 06:23:51] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 06:23:51] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:11:14] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:11:14] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:11:16] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:11:16] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:11:35] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:11:35] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:12:15] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:12:15] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:13:15] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:13:15] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(38): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:14:34] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:14:34] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:15:24] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:15:24] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:15:28] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:15:28] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:17:13] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:17:13] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:17:22] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:17:22] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:17:26] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:17:26] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:18:01] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:18:01] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('../templates/in...', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('../templates/in...', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('../templates/in...')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('../templates/in...')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:18:06] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:18:06] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('../templates/in...', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('../templates/in...', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('../templates/in...')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(34): Slim\Slim->render('../templates/in...')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(36): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:22:54] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:22:54] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:23:06] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:06] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:23:09] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:09] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:23:11] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:11] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 07:23:19] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:42] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:43] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:23:49] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:31:09] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 07:52:15] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 08:30:01] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 08:30:01] DuniaBaru.ERROR: exception 'RuntimeException' with message 'Named route not found for name: authenticate' in C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Router.php:187
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1078): Slim\Router->urlFor('authenticate', Array)
+#1 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\TwigExtension.php(55): Slim\Slim->urlFor('authenticate', Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Environment.php(331) : eval()'d code(37): Slim\Views\TwigExtension->urlFor('authenticate')
+#3 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(278): __TwigTemplate_352fe2e5d4d5b99e90f60ad6c8ddefbc54100f71a63980696d9399b5391e1c37->doDisplay(Array, Array)
+#4 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(252): Twig_Template->displayWithErrorHandling(Array, Array)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(263): Twig_Template->display(Array)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(89): Twig_Template->render(Array, NULL)
+#7 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#8 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#10 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#11 [internal function]: {closure}()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#15 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#16 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#17 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#18 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#19 {main}
+
+Next exception 'Twig_Error_Runtime' with message 'An exception has been thrown during the rendering of a template ("Named route not found for name: authenticate") in "index.twig" at line 17.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php:293
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(252): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(263): Twig_Template->display(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(89): Twig_Template->render(Array, NULL)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#6 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#7 [internal function]: {closure}()
+#8 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#14 C:\xampp\htdocs\DuniaBaru\public\index.php(37): Slim\Slim->run()
+#15 {main} [] []
+[2014-02-26 09:04:32] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 09:04:32] DuniaBaru.ERROR: exception 'RuntimeException' with message 'Named route not found for name: authenticate' in C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Router.php:187
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1078): Slim\Router->urlFor('authenticate', Array)
+#1 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\TwigExtension.php(55): Slim\Slim->urlFor('authenticate', Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Environment.php(331) : eval()'d code(37): Slim\Views\TwigExtension->urlFor('authenticate')
+#3 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(278): __TwigTemplate_352fe2e5d4d5b99e90f60ad6c8ddefbc54100f71a63980696d9399b5391e1c37->doDisplay(Array, Array)
+#4 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(252): Twig_Template->displayWithErrorHandling(Array, Array)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(263): Twig_Template->display(Array)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(89): Twig_Template->render(Array, NULL)
+#7 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#8 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#10 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#11 [internal function]: {closure}()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#15 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#16 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#17 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#18 C:\xampp\htdocs\DuniaBaru\public\index.php(42): Slim\Slim->run()
+#19 {main}
+
+Next exception 'Twig_Error_Runtime' with message 'An exception has been thrown during the rendering of a template ("Named route not found for name: authenticate") in "index.twig" at line 17.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php:293
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(252): Twig_Template->displayWithErrorHandling(Array, Array)
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Template.php(263): Twig_Template->display(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(89): Twig_Template->render(Array, NULL)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#6 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#7 [internal function]: {closure}()
+#8 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#14 C:\xampp\htdocs\DuniaBaru\public\index.php(42): Slim\Slim->run()
+#15 {main} [] []
+[2014-02-26 09:05:23] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 09:16:08] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 09:21:07] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 09:21:07] DuniaBaru.ERROR: exception 'Twig_Error_Loader' with message 'The "./templates" directory does not exist.' in C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php:93
+Stack trace:
+#0 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(75): Twig_Loader_Filesystem->addPath('./templates', '__main__')
+#1 C:\xampp\htdocs\DuniaBaru\vendor\twig\twig\lib\Twig\Loader\Filesystem.php(33): Twig_Loader_Filesystem->setPaths(Array)
+#2 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(119): Twig_Loader_Filesystem->__construct(Array)
+#3 C:\xampp\htdocs\DuniaBaru\vendor\slim\views\Slim\Views\Twig.php(86): Slim\Views\Twig->getInstance()
+#4 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(255): Slim\Views\Twig->render('index.twig', NULL)
+#5 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\View.php(243): Slim\View->fetch('index.twig', NULL)
+#6 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(753): Slim\View->display('index.twig')
+#7 C:\xampp\htdocs\DuniaBaru\public\index.php(35): Slim\Slim->render('index.twig')
+#8 [internal function]: {closure}()
+#9 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Route.php(454): call_user_func_array(Object(Closure), Array)
+#10 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1316): Slim\Route->dispatch()
+#11 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\Flash.php(85): Slim\Slim->call()
+#12 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\MethodOverride.php(92): Slim\Middleware\Flash->call()
+#13 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Middleware\PrettyExceptions.php(67): Slim\Middleware\MethodOverride->call()
+#14 C:\xampp\htdocs\DuniaBaru\vendor\slim\slim\Slim\Slim.php(1263): Slim\Middleware\PrettyExceptions->call()
+#15 C:\xampp\htdocs\DuniaBaru\public\index.php(49): Slim\Slim->run()
+#16 {main} [] []
+[2014-02-26 09:21:13] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 09:52:45] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 10:06:33] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 10:06:43] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 10:14:45] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 10:18:38] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 10:26:00] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 11:08:34] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 11:08:46] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 11:11:47] DuniaBaru.INFO: Dunia Baru '/' route [] []
+[2014-02-26 11:13:05] DuniaBaru.INFO: Dunia Baru '/' route [] []
