@@ -8,6 +8,8 @@
 
 require '../vendor/autoload.php';
 
+date_default_timezone_set("Asia/Jakarta");
+session_start();
 
 $app = new \Slim\Slim(array(
     'templates.path' => '../templates',
@@ -35,27 +37,35 @@ $app->get('/', function () use($app) {
     $app->render('index.twig');
 })->name('Home');
 
-$app->post('/auth', function () use($app) {   
+$auth = function() use ($app) {
+    if (!isset($_SESSION['user'])) {
+        $app->redirect("/auth");
+    }
+};
+
+$anonymous = function() use($app) {
+    if (isset($_SESSION['user'])) {
+        $app->notFound();
+    }
+};
+$app->post('/auth', $anonymous, function () use($app) {
     $request = $app->request();
-    
-    $username = $request->post('username');
-    $password = $request->post('password');
-    
+
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+
     $app->log->info('username : ' + $username);
     $app->log->info('password : ' + $password);
-    
-    if ($username == "yusuf1494" && $password == "yusuf") {
-        echo 'masuk if';
-        exit;
-//        $app->redirect('/dashboard');
-    }else{
-        echo 'ga masuk if';
-        exit;
-//        $app->redirect('/');
+
+    if ($username == 'yusuf1494' && $password == 'yusuf') {
+        $_SESSION['user'] = 'user';
+        $app->redirect('/dashboard');
+    } else {
+        $app->redirect('/');
     }
 })->name('authenticate');
 
-$app->get('/dashboard', function () use($app){
+$app->get('/dashboard', $auth, function () use($app) {
     $app->render('dashboard.twig');
 })->name('dashboard');
 
