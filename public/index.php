@@ -35,7 +35,7 @@ $app->get('/', function () use($app) {
     $app->render('index.twig');
 })->name('Home');
 
-$app->post('/auth', function() use($app) {
+$app->post('/auth', function () use($app) {   
     $request = $app->request();
     
     $username = $request->post('username');
@@ -44,14 +44,18 @@ $app->post('/auth', function() use($app) {
     $app->log->info('username : ' + $username);
     $app->log->info('password : ' + $password);
     
-    if ($username == 'yusuf1494' && $password == 'yusuf') {
-        $app->redirect('/dashboard');
+    if ($username == "yusuf1494" && $password == "yusuf") {
+        echo 'masuk if';
+        exit;
+//        $app->redirect('/dashboard');
     }else{
-        $app->redirect('/');
+        echo 'ga masuk if';
+        exit;
+//        $app->redirect('/');
     }
 })->name('authenticate');
 
-$app->get('/dashboard', function() use($app){
+$app->get('/dashboard', function () use($app){
     $app->render('dashboard.twig');
 })->name('dashboard');
 
