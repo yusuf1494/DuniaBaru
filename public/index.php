@@ -11,10 +11,15 @@ require '../vendor/autoload.php';
 date_default_timezone_set("Asia/Jakarta");
 session_start();
 
+
 $app = new \Slim\Slim(array(
     'templates.path' => '../templates',
     'view' => new \Slim\Views\Twig()
         ));
+
+//if (isset($_SESSION['user'])) {
+//    $app->redirect('/dashboard');
+//}
 
 $app->container->singleton('log', function() {
     $log = new \Monolog\Logger('DuniaBaru');
@@ -45,15 +50,17 @@ $auth = function() use ($app) {
 
 $anonymous = function() use($app) {
     if (isset($_SESSION['user'])) {
-        $app->notFound();
+        $app->log->info("anonymous harusnya redirect ke dashboard");
+        $app->redirect('/dashboard');
     }
 };
 
-$app->post('/logout', function() use($app){
-   if(isset($_SESSION['user'])){
-      unset( $_SESSION['user']);
-      $app->redirect('/');
-   } 
+$app->post('/logout', function() use($app) {
+    if (isset($_SESSION['user'])) {
+        unset($_SESSION['user']);
+        session_destroy();
+        $app->redirect('/');
+    }
 })->name('logout');
 
 $app->post('/auth', $anonymous, function () use($app) {
@@ -66,9 +73,12 @@ $app->post('/auth', $anonymous, function () use($app) {
     $app->log->info('password : ' + $password);
 
     if ($username == 'yusuf1494' && $password == 'yusuf') {
-        $_SESSION['user'] = 'user';
+        $_SESSION['user'] = 'yusuf';
         $app->redirect('/dashboard');
-    } else {
+    } else if($username == 'zulcrg' && $password == '123456') {
+        $_SESSION['user'] = 'zul';
+        $app->redirect('/dashboard');
+    }else{
         $app->redirect('/');
     }
 })->name('authenticate');
