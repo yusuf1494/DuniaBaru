@@ -39,7 +39,7 @@ $app->get('/', function () use($app) {
 
 $auth = function() use ($app) {
     if (!isset($_SESSION['user'])) {
-        $app->redirect("/auth");
+        $app->redirect('/');
     }
 };
 
@@ -48,6 +48,14 @@ $anonymous = function() use($app) {
         $app->notFound();
     }
 };
+
+$app->post('/logout', function() use($app){
+   if(isset($_SESSION['user'])){
+      unset( $_SESSION['user']);
+      $app->redirect('/');
+   } 
+})->name('logout');
+
 $app->post('/auth', $anonymous, function () use($app) {
     $request = $app->request();
 

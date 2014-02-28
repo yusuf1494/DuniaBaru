@@ -14,7 +14,10 @@
 			<![endif]-->
 		</head>
 		<body>
-                   FORTUNE COOKIE                   
-                   <button  class="btn btn-default">Log Out</button>                   
+                   FORTUNE COOKIE
+                   <form method="post" action="{{ urlFor('logout') }}">
+                       <button  class="btn btn-default">Log Out</button>                   
+                   </form>
+                   
 		</body>
 </html>
