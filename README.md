@@ -14,5 +14,4 @@ a sample php project build using slim framework,composer and netbeans 7.4
 You must install composer find it here https://getcomposer.org/ and Slim framework here http://www.slimframework.com/
 
 This is slim documentation http://docs.slimframework.com/ , if you want to build slim project you can use this project as 
-
 a template or you can clone slim-skeleton.
